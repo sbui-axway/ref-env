@@ -8325,12 +8325,6 @@
 	<fval name="name"><value>Id-0001529531571877-ffffffffa199093d-1</value></fval>
 	<fval name="priority"><value>0</value></fval>
 </entity>
-<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="FilterCircuit" entityPK="6716614105222726642" parentPK="-7987400747944343196">
-	<fval name="category"><value contentType="reference">-7509447965632017883</value></fval>
-	<fval name="description"><value></value></fval>
-	<fval name="logMask"><value>3</value></fval>
-	<fval name="name"><value>Default Portal-registered API</value></fval>
-</entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="AccessLogger" entityPK="-7383505913458126491" parentPK="0">
 	<fval name="name"><value>AccessLogger</value></fval>
 	<fval name="pattern"><value>%h %l %u %t &quot;%r&quot; %s %b</value></fval>
