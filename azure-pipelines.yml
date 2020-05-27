@@ -1,0 +1,14 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: 'Default'
+
+steps:
+- checkout : self
+- script: "/opt/Axway/apigateway/posix/bin/projpack --create --name=test --type=fed --add /azp/agent/_work/1/s/ --passphrase-none --projpass-none"
